@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I'm Sorry, Maayu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ffe6e6, #fff);
+      color: #333;
+      text-align: center;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 100px 20px;
+    }
+
+    .hero {
+      background: #ffccd5;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+    .message {
+      background: #fff0f3;
+    }
+
+    .romantic {
+      background: #ffe6f0;
+      font-style: italic;
+    }
+
+    .poem {
+      background: #ffdee9;
+    }
+
+    .final {
+      background: #ffb3c6;
+      color: white;
+      font-size: 2em;
+    }
+
+    .heart {
+      color: red;
+      animation: heartbeat 1s infinite;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>I'm Sorry, Maayu</h1>
+    <p>I miss your smile, your laugh, and your love.</p>
+  </section>
+
+  <section class="message">
+    <h2>I am sorry for everything</h2>
+    <p>I just want your smile. I can do everything for you.</p>
+  </section>
+
+  <section class="romantic">
+    <h2>You are the most romantic and cutest person I know</h2>
+    <p>Every little thing you do makes my heart skip a beat.</p>
+    <p>You're my everything, Maayu.</p>
+  </section>
+
+  <section class="poem">
+    <h2>A Little Something From My Heart</h2>
+    <p>Even when we fight, my heart stays with you,</p>
+    <p>Because no one loves you the way I do.</p>
+    <p>I'm sorry for the hurt, the silence, the pain,</p>
+    <p>I just want to see your smile again.</p>
+  </section>
+
+  <section class="final">
+    <p>I Love You, Maayu <span class="heart">♥</span></p>
+    <p>Always yours.</p>
+  </section>
+
+</body>
+</html>
